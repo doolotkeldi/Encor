@@ -1,13 +1,16 @@
 
-button{
+.button{
     background-color: #f8f9fa;
     color: red;
 }
-button:hover{
+.button:hover{
 background-color: #c6c7c8;
 }
 a{
     text-decoration: none;
+}
+ul>li{
+    list-style: none;
 }
 .create{
     text-align: center;
@@ -18,3 +21,12 @@ a{
     border-radius: 20px;
     margin-top: 200px;
 }
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+   
+    z-index: 2;
+}
+
+
