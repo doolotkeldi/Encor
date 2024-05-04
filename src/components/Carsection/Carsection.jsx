@@ -1,5 +1,5 @@
 import React from "react";
-import "./CarSection.css";
+import "./Carsection.css";
 
 import One from "./svg/one.jpg";
 import Two from "./svg/two.jpg";
