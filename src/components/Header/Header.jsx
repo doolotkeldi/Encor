@@ -12,6 +12,7 @@ function Header() {
     setIsLoation(location.pathname === "/about")
   }, [location.pathname])
   return (
+
     <header >
       <div className="container header-content">
         <Link to="/" className="logo">
@@ -32,6 +33,7 @@ function Header() {
           </li>
         </ul>
       </div>
+
     </header>
   )
 }

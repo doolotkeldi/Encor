@@ -9,7 +9,6 @@ import './Footer.css'
 function Footer() {
   return (
     <div>
-      footer
 {/* footer    <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" />
       <Card.Body>
