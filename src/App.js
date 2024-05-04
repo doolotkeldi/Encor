@@ -12,7 +12,11 @@ import { auth } from "./firebase";
 import Auth from "./components/Auth/Auth";
 import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 import ForgotPassworddd from "./components/Auth/ForgotPassword";
+
+import KareyanPage from "./Pages/KareyanPage";
+
 import AboutPage from "./Pages/AboutPage";
+
 
 function App() {
 	const [isRegister, setIsRegister] = useState(null);
@@ -51,6 +55,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/paylout" element={<Paylout />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/koreyan" element={<KareyanPage/>}/>
           <Route path="/about" element={<AboutPage/>}/>
         </Route>
       ) : (
