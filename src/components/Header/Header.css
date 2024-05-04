@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.menu>li{
+    list-style: none;
+    font-size: 28px;
+    width: 130px;
+    height: 45px;
+    background-color: red;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 8px;
+ 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    transition-duration: 0.3s;
+    color: black;
+}

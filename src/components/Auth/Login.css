@@ -1,0 +1,38 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+.create-new-acaunt>a>button{
+    width: 320px;
+    height: 40px;
+    border-radius: 12px;
+    background: none;
+    border: 2px solid rgb(0, 123, 255);
+    color: rgb(0, 123, 255);
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+.create-new-acaunt{
+    text-align: center;
+    padding-top: 200px;
+}
+.line{
+    height: 2px;
+    width: 30%;
+    background-color: #CCCCCC; /* для тексту */
+    ;
+    /* color: rgba(246, 241, 241, 0.151); */
+}
+.info-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.info-line{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: Arial;
+    color: #ccccccb0; /* для тексту */
+
+}
