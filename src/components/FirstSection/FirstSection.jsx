@@ -8,6 +8,8 @@ import Alben from './svg/Alben.svg'
 import Kazak from './svg/Kazak.svg'
 
 function FirstSection() {
+
+    
   return (
     <section className='fist-section'>
         <img src={Car} alt="" />
