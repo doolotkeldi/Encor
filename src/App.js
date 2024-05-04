@@ -1,5 +1,6 @@
 import "./App.css";
 import Layout from "./components/Layout/Layout";
+import Home from "./components/Home/Home";
 import Paylout from "./components/Paylout/Paylout";
 import Contact from "./components/Contact/Contact";
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
@@ -15,7 +16,6 @@ import ForgotPassworddd from "./components/Auth/ForgotPassword";
 import KareyanPage from "./Pages/KareyanPage";
 
 import AboutPage from "./Pages/AboutPage";
-import HomePage from "./Pages/HomePage";
 
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
           path="/"
           element={<Layout />}
         >
-          <Route index element={<HomePage />} />
+          <Route index element={<Home />} />
           <Route path="/paylout" element={<Paylout />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/koreyan" element={<KareyanPage/>}/>
