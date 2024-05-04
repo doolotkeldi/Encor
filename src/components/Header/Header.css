@@ -2,10 +2,9 @@
 
 }
 .logo>img{
-    width: 170px;
+    width: 160px;
     height: 40px;
     object-fit: cover;
-    background: none;
 }
 .header-content{
     height: 80px;
@@ -21,7 +20,7 @@
     align-items: center;
     justify-content: space-between;
     
-    gap: 53px;
+    gap: 45px;
 }
 .header-content>ul>li>a{
     font-family: "Montserrat";
