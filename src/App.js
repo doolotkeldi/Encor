@@ -1,6 +1,5 @@
 import "./App.css";
 import Layout from "./components/Layout/Layout";
-import Home from "./components/Home/Home";
 import Paylout from "./components/Paylout/Paylout";
 import Contact from "./components/Contact/Contact";
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
@@ -13,6 +12,7 @@ import Auth from "./components/Auth/Auth";
 import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 import ForgotPassworddd from "./components/Auth/ForgotPassword";
 import AboutPage from "./Pages/AboutPage";
+import HomePage from "./Pages/HomePage";
 
 function App() {
   const [isRegister, setIsRegister] = useState(null);
@@ -48,7 +48,7 @@ function App() {
           path="/"
           element={<Layout />}
         >
-          <Route index element={<Home />} />
+          <Route index element={<HomePage />} />
           <Route path="/paylout" element={<Paylout />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutPage/>}/>
