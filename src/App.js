@@ -15,31 +15,31 @@ import ForgotPassworddd from "./components/Auth/ForgotPassword";
 import AboutPage from "./Pages/AboutPage";
 
 function App() {
-  const [isRegister, setIsRegister] = useState(null);
-  const location = useLocation();
+	const [isRegister, setIsRegister] = useState(null);
+	const location = useLocation();
 
-  useEffect(() => {
-    const listen = onAuthStateChanged(auth, (user) => {
-      if(user) {
-        setIsRegister(user)
-      }
-      else{
-        setIsRegister(null)
-      }
-    });
-  }, []);
+	useEffect(() => {
+		const listen = onAuthStateChanged(auth, user => {
+			if (user) {
+				setIsRegister(user);
+			} else {
+				setIsRegister(null);
+			}
+		});
+	}, []);
 
-  // function signOutHandler() {
-  //   const isAuth = window.confirm("Are you sure you want to sign out?");
-  //   if (isAuth) {
-  //     signOut(auth);
-  //   }
-  // }
+	// function signOutHandler() {
+	//   const isAuth = window.confirm("Are you sure you want to sign out?");
+	//   if (isAuth) {
+	//     signOut(auth);
+	//   }
+	// }
 
-  // if (isRegister === null) {
-  //   // Wait for authentication state to load
-  //   return null;
-  // }
+	// if (isRegister === null) {
+	//   // Wait for authentication state to load
+	//   return null;
+	// }
+
 
   return (
     <Routes>
@@ -63,6 +63,7 @@ function App() {
       )}
     </Routes>
   );
+
 }
 
 export default App;

@@ -1,25 +1,28 @@
-import React, { useEffect } from 'react'
-import {signOut,signInWithEmailAndPassword} from 'firebase/auth'
-import { auth } from '../../firebase'
+import React, { useEffect } from "react";
+import { signOut, signInWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../../firebase";
+import Carsection from "../Carsection/Carsection";
 
 function Home() {
-  // useEffect(()=>{
-  //   signInWithEmailAndPassword(auth,(user)=>{
-      
-  //   })
-    
-  // },[])
+	// useEffect(()=>{
+	//   signInWithEmailAndPassword(auth,(user)=>{
 
-  function clickHandler () {
-    signOut(auth)
-  }
-  return (
-    <div>
-     
-      home
-      {/* <button onClick={clickHandler}>button</button> */}
-    </div>
-  )
+
+	//   })
+
+	// },[])
+
+	function clickHandler() {
+		signOut(auth);
+	}
+	return (
+		<div>
+			{/* home */}
+			{/* <button onClick={clickHandler}>button</button> */}
+			<Carsection />
+		</div>
+	);
+
 }
 
-export default Home
+export default Home;
