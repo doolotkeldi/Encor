@@ -11,35 +11,39 @@ import { auth } from "./firebase";
 import Auth from "./components/Auth/Auth";
 import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 import ForgotPassworddd from "./components/Auth/ForgotPassword";
+
+import KareyanPage from "./Pages/KareyanPage";
+
 import AboutPage from "./Pages/AboutPage";
 import HomePage from "./Pages/HomePage";
 
+
 function App() {
-  const [isRegister, setIsRegister] = useState(null);
-  const location = useLocation();
+	const [isRegister, setIsRegister] = useState(null);
+	const location = useLocation();
 
-  useEffect(() => {
-    const listen = onAuthStateChanged(auth, (user) => {
-      if(user) {
-        setIsRegister(user)
-      }
-      else{
-        setIsRegister(null)
-      }
-    });
-  }, []);
+	useEffect(() => {
+		const listen = onAuthStateChanged(auth, user => {
+			if (user) {
+				setIsRegister(user);
+			} else {
+				setIsRegister(null);
+			}
+		});
+	}, []);
 
-  // function signOutHandler() {
-  //   const isAuth = window.confirm("Are you sure you want to sign out?");
-  //   if (isAuth) {
-  //     signOut(auth);
-  //   }
-  // }
+	// function signOutHandler() {
+	//   const isAuth = window.confirm("Are you sure you want to sign out?");
+	//   if (isAuth) {
+	//     signOut(auth);
+	//   }
+	// }
 
-  // if (isRegister === null) {
-  //   // Wait for authentication state to load
-  //   return null;
-  // }
+	// if (isRegister === null) {
+	//   // Wait for authentication state to load
+	//   return null;
+	// }
+
 
   return (
     <Routes>
@@ -51,6 +55,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="/paylout" element={<Paylout />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/koreyan" element={<KareyanPage/>}/>
           <Route path="/about" element={<AboutPage/>}/>
         </Route>
       ) : (
@@ -63,6 +68,7 @@ function App() {
       )}
     </Routes>
   );
+
 }
 
 export default App;

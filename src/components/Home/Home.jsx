@@ -1,7 +1,9 @@
+
 import React, { useEffect } from 'react'
 import {signOut,signInWithEmailAndPassword} from 'firebase/auth'
 import { auth } from '../../firebase'
 import FirstSection from '../FirstSection/FirstSection'
+import Carsection from "../Carsection/Carsection";
 
 function Home() {
   // useEffect(()=>{
@@ -18,10 +20,12 @@ function Home() {
     <div>
      
       <FirstSection/>
+    	<Carsection />
       home
       {/* <button onClick={clickHandler}>button</button> */}
     </div>
   )
+
 }
 
-export default Home
+export default Home;

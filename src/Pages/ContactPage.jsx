@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../components/Home/Home'
+// import Home from '../components/Home/Home'
 import Contact from '../components/Contact/Contact'
 
 function ContactPage() {
@@ -11,4 +11,3 @@ function ContactPage() {
 }
 
 export default ContactPage
-
