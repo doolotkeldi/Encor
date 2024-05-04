@@ -2,7 +2,7 @@ import React from "react";
 import "./CarPotion.scss";
 import car from "./img/Group 2827.png";
 import line from "./img/Vector 8.svg";
-import car2 from "./img/arvid-skywalker-ZvVNJOnV3ho-unsplash.png"
+import car2 from "./img/arvid-skywalker-ZvVNJOnV3ho-unsplash.png" 
 
 function CarPotion() {
   return (
