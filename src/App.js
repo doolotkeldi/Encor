@@ -14,53 +14,49 @@ import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 import ForgotPassworddd from "./components/Auth/ForgotPassword";
 
 function App() {
-  const [isRegister, setIsRegister] = useState(null);
-  const location = useLocation();
+	const [isRegister, setIsRegister] = useState(null);
+	const location = useLocation();
 
-  useEffect(() => {
-    const listen = onAuthStateChanged(auth, (user) => {
-      if(user) {
-        setIsRegister(user)
-      }
-      else{
-        setIsRegister(null)
-      }
-    });
-  }, []);
+	useEffect(() => {
+		const listen = onAuthStateChanged(auth, user => {
+			if (user) {
+				setIsRegister(user);
+			} else {
+				setIsRegister(null);
+			}
+		});
+	}, []);
 
-  // function signOutHandler() {
-  //   const isAuth = window.confirm("Are you sure you want to sign out?");
-  //   if (isAuth) {
-  //     signOut(auth);
-  //   }
-  // }
+	// function signOutHandler() {
+	//   const isAuth = window.confirm("Are you sure you want to sign out?");
+	//   if (isAuth) {
+	//     signOut(auth);
+	//   }
+	// }
 
-  // if (isRegister === null) {
-  //   // Wait for authentication state to load
-  //   return null;
-  // }
+	// if (isRegister === null) {
+	//   // Wait for authentication state to load
+	//   return null;
+	// }
 
-  return (
-    <Routes>
-      {isRegister ? (
-        <Route
-          path="/"
-          element={<Layout />}
-        >
-          <Route index element={<Home />} />
-          <Route path="/paylout" element={<Paylout />} />
-          <Route path="/contact" element={<Contact />} />
-        </Route>
-      ) : (
-        <Route path="/" element={<Auth />}>
-          <Route index element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/forget" element={<ForgotPassworddd/>}/>
-          <Route path="/forgot" element={<ForgotPassword/>}/>
-        </Route>
-      )}
-    </Routes>
-  );
+	return (
+		<Routes>
+			{isRegister ? (
+				<Route path="/" element={<Layout />}>
+					<Route index element={<Home />} />
+					<Route path="/paylout" element={<Paylout />} />
+					<Route path="/contact" element={<Contact />} />
+				</Route>
+			) : (
+				<Route path="/" element={<Auth />}>
+					<Route index element={<LoginPage />} />
+					<Route path="/register" element={<RegisterPage />} />
+					<Route path="/forget" element={<ForgotPassworddd />} />
+					<Route path="/forgot" element={<ForgotPassword />} />
+				</Route>
+			)}
+		</Routes>
+	);
 }
 
 export default App;
