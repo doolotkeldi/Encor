@@ -17,7 +17,7 @@ function Home() {
     <div>
      
       home
-      <button onClick={clickHandler}>button</button>
+      {/* <button onClick={clickHandler}>button</button> */}
     </div>
   )
 }
