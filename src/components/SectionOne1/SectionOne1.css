@@ -1,0 +1,209 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.con-div{
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+}
+.contact ul{
+    display: flex;
+    align-items: start;
+    justify-content: baseline;
+    margin-left:-30px ;
+}
+.contact ul li{
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 24.38px; */
+    color: #777474;
+    list-style: none;
+    text-align: left;
+}
+.contact h1{
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 650;
+    line-height: 65px;
+}
+.contact p{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.whats-app{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.whats-app h1{
+    width: 136px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30.48px;
+    text-align: left;
+    color: #009D00;
+}
+.telegram h1{
+    width: 136px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 25px;
+    /* font-weight: 500; */
+    line-height: 30.48px;
+    text-align: left;
+    color:  #26A4E3;
+}
+.telegram{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.tel-con{
+    display: flex;
+    margin-top: 40px;
+}
+.tg-what{
+    display: flex;
+    margin-top: 30px;
+}
+.tg-what img{
+    width: 45px;
+    height: 45px;
+}
+.tg-what h1{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    width: 175px;
+}
+.tel-con img{
+    width: 45px;
+    height: 45px;
+}
+.tel-con h1{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    width: 175px;      
+}
+.black-bg{
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-style{
+    width: 360px;
+    height: 60px;
+    border-radius: 14px;
+    border: 1px solid #C9C9C9
+}
+.input-style p{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12.19px;
+    text-align: left;
+    margin-top: 7px;
+    margin-left: 15px;
+    color: #605f5f;
+}
+.input-style h1{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    margin-top: -7px;
+    margin-left: 15px;
+}
+.black-bg img{
+    width: 27.28px;
+    height: 22.32px;
+    display: flex;
+}
+.input-conn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.chackbox{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 10px;
+}
+.chackbox p{
+    font-family: Montserrat;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #000000;
+}
+.chackbox p a{
+    color: #000000;
+}
+.chackbox img{
+    width: 20px;
+    height: 20px;
+}
+.input-conn input{
+    width: 360px;
+    height: 60px;
+    border-radius: 14px;
+    border: 1px solid #C9C9C9;
+    outline: none;
+    padding: 0 15px ;
+}
+.input-conn button{
+    width: 360px;
+    height: 55px;
+    gap: 0px;
+    border-radius: 14px;
+    background: #FA002C;
+    box-shadow: 0px 8px 30px 0px #FA002C66;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-family: "Arial";
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.site{
+    width: 430px;
+    height: 530px;
+    top: 209px;
+    left: 1131px;
+    gap: 0px;
+    border-radius: 22px;
+    opacity: 0px;
+    box-shadow: 0px 5px 60px 0px#23252612;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.site-con{
+    margin-top: 60px;
+    margin-left: 33px;
+}

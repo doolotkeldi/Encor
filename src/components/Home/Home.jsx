@@ -7,6 +7,7 @@ function Home() {
 	// useEffect(()=>{
 	//   signInWithEmailAndPassword(auth,(user)=>{
 
+
 	//   })
 
 	// },[])
@@ -21,6 +22,7 @@ function Home() {
 			<Carsection />
 		</div>
 	);
+
 }
 
 export default Home;
