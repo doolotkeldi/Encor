@@ -1,0 +1,77 @@
+.question h3 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 69px;
+	margin-bottom: 25px;
+}
+
+.question .hr {
+	width: 950px;
+	height: 1px;
+	background: #c2c2c2;
+	margin: 17px 0;
+	/* border: 1px solid #c2c2c2; */
+}
+
+.question-text {
+	display: flex;
+	align-items: center;
+	gap: 85px;
+}
+
+.question-text .minusQues {
+	height: 5px;
+	border-radius: 2px;
+}
+
+.question-text div {
+	width: 18px;
+	height: 3px;
+	border-radius: 1px;
+	background: #fa002c;
+}
+
+.question-text h4 {
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 36.57px;
+}
+
+.question .redHFour {
+	color: #fa002c;
+}
+
+.question p {
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	color: #292929;
+	margin-left: 105px;
+}
+
+.galochka {
+	width: 55px;
+	height: 55px;
+	border-radius: 10px;
+	background: #fa002c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 12px 40px 0px #fa002c66;
+}
+
+.question-images h3 {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+.question-images {
+	display: flex;
+	align-items: center;
+	gap: 47px;
+	margin-top: 20px;
+}

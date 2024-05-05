@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { signOut, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";
 import EnCarRus from "../enCarRus/EnCarRus";
+import Question from "../question/Question";
 
 function Home() {
 	// useEffect(()=>{
@@ -18,7 +19,8 @@ function Home() {
 		<div>
 			{/* home */}
 			{/* <button onClick={clickHandler}>button</button> */}
-			<EnCarRus />
+			<Question />
+			{/* <EnCarRus /> */}
 		</div>
 	);
 }
