@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import {signOut,signInWithEmailAndPassword} from 'firebase/auth'
 import { auth } from '../../firebase'
+// import Footer from '../Footer/Footer'
 
 function Home() {
   // useEffect(()=>{
@@ -15,8 +16,7 @@ function Home() {
   }
   return (
     <div>
-     
-      home
+        {/* <Footer/> */}
       {/* <button onClick={clickHandler}>button</button> */}
     </div>
   )
