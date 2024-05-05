@@ -1,0 +1,60 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.encar {
+	background-image: url("./enCarRus.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 600px;
+
+	border-radius: 30px;
+	border: 7px solid #e7e7e7;
+	padding: 100px 0 0 55px;
+
+	position: relative;
+}
+
+.encar h3 {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 70px;
+}
+
+h3 span {
+	color: #fa002c;
+}
+
+.encar p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	margin: 20px 0 50px 0;
+}
+
+.encar button {
+	width: 286px;
+	height: 72px;
+	border: none;
+	border-radius: 14px;
+	background: #fa002c;
+	color: #fff;
+
+	font-size: 17px;
+	font-weight: 700;
+	box-shadow: 0px 12px 60px 0px #fa002c66;
+}
+
+/* .jeep  {
+    position: absolute;
+    height: 1409px;
+    object-fit: cover;
+    z-index: 999;
+ width: 90%;
+    right: -344px;
+    top: -411px;
+} */
