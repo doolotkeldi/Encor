@@ -4,15 +4,13 @@ import {signOut,signInWithEmailAndPassword} from 'firebase/auth'
 import { auth } from '../../firebase'
 import FirstSection from '../FirstSection/FirstSection'
 import Carsection from "../Carsection/Carsection";
+import Question from "../question/Question";
 
 
 function Home() {
-  // useEffect(()=>{
-  //   signInWithEmailAndPassword(auth,(user)=>{
-      
-  //   })
-    
-  // },[])
+	// useEffect(()=>{
+	//   signInWithEmailAndPassword(auth,(user)=>{
+
 
   function clickHandler () {
     signOut(auth)
@@ -23,11 +21,13 @@ function Home() {
      
       <FirstSection/>
     	<Carsection />
+    	<Question />
       home
 
       {/* <button onClick={clickHandler}>button</button> */}
     </div>
   )
+
 
 }
 
