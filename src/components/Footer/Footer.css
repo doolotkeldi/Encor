@@ -1,5 +1,98 @@
-.image{
-    width: 200px;
-    height: 200px;
-    object-fit: cover ;
+.footer-con{ 
+    width: 1365px; 
+    height: 250px; 
+    top: 1579px; 
+    gap: 0px; 
+    opacity: 0px; 
+    background: #EEEEEE; 
+    margin-top: 65px; 
+    border-radius: 40px 40px 0 0; 
+} 
+.logo-con img{ 
+    width: 160px; 
+    height: 40px; 
+    top: 1629px; 
+    left: 223px; 
+    gap: 0px; 
+    opacity: 0px; 
+    background-color: #EEEEEE; 
+    margin-top:50px; 
+    margin-left: 27px; 
+} 
+.logo-con p{ 
+    font-size: 12px; 
+    font-weight: 500; 
+    line-height: 22px; 
+    text-align: left; 
+    margin-top: 5px; 
+    margin-left: 37px; 
+} 
+.content-text{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+.phone-tel button{ 
+    width:176px; 
+    height: 40px; 
+    background-color: #FA002C;border: none; 
+    border-radius: 6px; 
+    font-size: 13px; 
+    color: #FFFFFF; 
+    font-weight: 600; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 5px; 
+    margin-left: 5px; 
+} 
+.text-ul{ 
+    margin-left: -50px; 
+} 
+.text-ul ul{ 
+    margin-top: 40px; 
+} 
+.text-ul ul li{ 
+    font-size: 12px; 
+    line-height: 23px; 
+    text-align: left; 
+    font-weight: 500; 
+    line-height: 26px; 
+} 
+.gis-google{ 
+    display: flex; 
+    gap: 10px; 
+} 
+.gis-google p{ 
+    margin-top:8px; 
+    font-size: 12px; 
+    font-weight: 400; 
+} 
+.gis-google img{ 
+    width: 10px; 
+    height: 15px; 
+    margin-top: 11px; 
+    margin-left: 8px; 
+} 
+.gis{ 
+    margin-top: 20px; 
+    margin-right: -25px; 
+} 
+ 
+.menu-con ul{ 
+    margin-top: 10px; 
+    margin-left: -45px; 
+} 
+.menu-con ul li{ 
+    font-size: 12px; 
+    line-height: 23px; 
+    text-align: left; 
+    font-weight: 500; 
+    line-height: 26px;  
+} 
+.footer-left{ 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    gap: 90px; 
 }
