@@ -5,6 +5,7 @@ import { auth } from '../../firebase'
 import FirstSection from '../FirstSection/FirstSection'
 import Carsection from "../Carsection/Carsection";
 
+
 function Home() {
   // useEffect(()=>{
   //   signInWithEmailAndPassword(auth,(user)=>{
@@ -18,10 +19,12 @@ function Home() {
   }
   return (
     <div>
+
      
       <FirstSection/>
     	<Carsection />
       home
+
       {/* <button onClick={clickHandler}>button</button> */}
     </div>
   )
